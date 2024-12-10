@@ -30,7 +30,7 @@ json 输出格式基于 [HSR-Scanner](https://github.com/kel-z/HSR-Scanner) 的�
 
 ### 命令行使用
 
-
+```
 Usage: reliquary-archiver.exe [OPTIONS] [OUTPUT]
 
 Arguments:
@@ -42,7 +42,7 @@ Options:
   -v, --verbose...           输出的详细程度，可以设置最多 3 次。如果设置了 RUST_LOG，则无效
   -l, --log-path <LOG_PATH>  输出日志的路径
   -h, --help                 打印帮助信息
-
+```
 
 要自定义日志记录，可以
 - 设置详细标志
